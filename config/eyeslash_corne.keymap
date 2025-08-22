@@ -125,6 +125,7 @@
         five {
             bindings = <&kp N5>;
             key-positions = <3 4>;
+            timeout-ms = <5>;
         };
 
         six {
