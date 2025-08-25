@@ -224,7 +224,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
-            label = "pad";
+            label = "PAD";
         };
     };
 };
