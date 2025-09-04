@@ -126,7 +126,7 @@
             bindings = <&kp N5>;
             key-positions = <3 4>;
             slow-release;
-            timeout-ms = <20>;
+            timeout-ms = <50>;
         };
 
         six {
@@ -152,6 +152,8 @@
         zero {
             bindings = <&kp N0>;
             key-positions = <8 9>;
+            slow-release;
+            timeout-ms = <50>;
         };
 
         rightblanket {
