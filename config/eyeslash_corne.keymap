@@ -252,7 +252,7 @@
 &trans  &trans  &trans  &trans  &trans     &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans     &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &to 0
-                        &to 1   &kp SPACE  &to 3                                     &trans  &trans  &trans
+                        &mo 1   &kp SPACE  &mo 3                                     &trans  &trans  &trans
             >;
 
             label = "game mode";
