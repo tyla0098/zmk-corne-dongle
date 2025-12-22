@@ -202,10 +202,10 @@
         layer_5 {
             display-name = "game mode";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E  &kp R      &kp T                     &kp UP               &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp P                    &kp BSPC
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F      &kp G           &kp LEFT  &kp DEL   &kp RIGHT  &kp H            &HMR RCTRL J       &HMR LEFT_SHIFT K     &HMR LEFT_ALT L       &HMR LEFT_GUI SEMICOLON  &kp SQT
-&kp LCTRL       &kp Z  &kp X  &kp C  &kp V      &kp B  &to 0              &kp DOWN             &kp N            &kp M              &kp COMMA             &kp DOT               &kp FSLH                 &kp ESC
-                              &mo 2  &kp SPACE  &mo 4                                          &mo 3            &lt 4 SPACE        &trans
+&kp TAB         &kp Q           &kp W           &kp E           &kp R           &kp T                     &kp UP               &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &kp P                    &kp BSPC
+&kp LEFT_SHIFT  &kp A           &kp S           &kp D           &kp F           &kp G           &kp LEFT  &kp DEL   &kp RIGHT  &kp H            &HMR RCTRL J       &HMR LEFT_SHIFT K     &HMR LEFT_ALT L       &HMR LEFT_GUI SEMICOLON  &kp SQT
+&kp LCTRL       &mt Z NUMBER_1  &mt X NUMBER_2  &mt C NUMBER_3  &mt V NUMBER_4  &kp B  &to 0              &kp DOWN             &kp N            &kp M              &kp COMMA             &kp DOT               &kp FSLH                 &kp ESC
+                                                &mo 2           &kp SPACE       &mo 4                                          &mo 3            &lt 4 SPACE        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
