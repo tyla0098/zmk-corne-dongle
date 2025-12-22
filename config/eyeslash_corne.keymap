@@ -263,14 +263,9 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        numberkey {
+        number {
             if-layers = <5>;
             then-layer = <1>;
-        };
-
-        FN {
-            if-layers = <5>;
-            then-layer = <3>;
         };
     };
 };
