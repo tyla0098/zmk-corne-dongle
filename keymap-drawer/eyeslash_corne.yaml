@@ -48,7 +48,7 @@ layers:
   - NUMBER
   - SYMBOL
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: QWERTY, h: toggle}
+  - {t: game mode, h: toggle}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
