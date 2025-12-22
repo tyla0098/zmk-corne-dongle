@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - {t: ONE HAND MODE, h: toggle}
+  - {t: QWERTY, h: toggle}
   - $$mdi:arrow-down-bold$$
   - N
   - M
@@ -48,7 +48,7 @@ layers:
   - NUMBER
   - SYMBOL
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: ONE HAND MODE, h: toggle}
+  - {t: QWERTY, h: toggle}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -245,18 +245,7 @@ layers:
   - {t: '0', s: )}
   - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  ONE HAND MODE:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-tab$$
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
+  game mode:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -269,9 +258,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -283,49 +269,80 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: QWERTY, h: toggle}
+  - {t: NUMBER, h: toggle}
+  - $$mdi:keyboard-space$$
+  - {t: Fn, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '0', s: )}
-  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [14, 15]
   k: '1'
+  l: [QWERTY]
 - p: [16, 17]
   k: '2'
+  l: [QWERTY]
 - p: [30, 31]
   k: Ctl+C
+  l: [QWERTY]
 - p: [31, 32]
   k: Ctl+V
+  l: [QWERTY]
 - p: [30, 31, 32]
   k: Alt+Ctl+V
+  l: [QWERTY]
 - p: [0, 28]
   k: Gui+Sft+S
+  l: [QWERTY]
 - p: [29, 30]
   k: Ctl+X
+  l: [QWERTY]
 - p: [14, 15, 16]
   k: '3'
+  l: [QWERTY]
 - p: [14, 16, 17, 15]
   k: '4'
+  l: [QWERTY]
 - p: [3, 4]
   k: {t: '5', s: '%'}
+  l: [QWERTY]
 - p: [25, 26]
   k: '6'
+  l: [QWERTY]
 - p: [23, 24]
   k: {t: '7', s: '&'}
+  l: [QWERTY]
 - p: [24, 25, 26]
   k: {t: '8', s: '*'}
+  l: [QWERTY]
 - p: [23, 24, 25, 26]
   k: {t: '9', s: (}
+  l: [QWERTY]
 - p: [8, 9]
   k: {t: '0', s: )}
+  l: [QWERTY]
 - p: [37, 38]
   k: (
+  l: [QWERTY]
 - p: [39, 38]
   k: )
+  l: [QWERTY]
