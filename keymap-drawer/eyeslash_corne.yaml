@@ -293,7 +293,7 @@ layers:
   - Fn
   - SYMBOL
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: QWERTY, h: toggle}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [14, 15]
   k: '1'
