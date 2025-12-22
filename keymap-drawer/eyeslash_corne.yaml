@@ -79,10 +79,10 @@ layers:
   - {t: ;, h: '$$mdi:apple-keyboard-command$$', s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
-  - Z
-  - X
-  - C
-  - V
+  - {t: '1', h: Z}
+  - {t: '2', h: X}
+  - {t: '3', h: C}
+  - {t: '4', h: V}
   - B
   - {t: QWERTY, h: toggle}
   - $$mdi:arrow-down-bold$$
