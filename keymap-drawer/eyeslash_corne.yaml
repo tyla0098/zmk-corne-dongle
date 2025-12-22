@@ -57,10 +57,10 @@ layers:
   - R
   - T
   - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - O
+  - $$mdi:volume-high$$
+  - $$mdi:volume-low$$
+  - $$mdi:brightness-5$$
+  - $$mdi:brightness-7$$
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-shift$$
