@@ -288,9 +288,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: QWERTY, h: toggle}
-  - {t: NUMBER, h: toggle}
+  - NUMBER
   - $$mdi:keyboard-space$$
-  - {t: Fn, h: toggle}
+  - Fn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
