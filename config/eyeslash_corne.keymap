@@ -200,7 +200,7 @@
 &kp TAB    &kp Q            &kp W            &kp E              &kp R         &kp T                     &kp UP               &kp Y  &kp U         &kp I              &kp O            &kp P                    &kp BSPC
 &td0       &HML LEFT_GUI A  &HML LEFT_ALT S  &HML LEFT_SHIFT D  &HML LCTRL F  &kp G           &kp LEFT  &kp DEL   &kp RIGHT  &kp H  &HMR RCTRL J  &HMR LEFT_SHIFT K  &HMR LEFT_ALT L  &HMR LEFT_GUI SEMICOLON  &kp SQT
 &kp LCTRL  &kp Z            &kp X            &kp C              &kp V         &kp B  &to 0              &kp DOWN             &kp N  &kp M         &kp COMMA          &kp DOT          &kp FSLH                 &kp ESC
-                                             &lt 5 DEL          &lt 4 ENTER   &mo 2                                          &mo 3  &lt 4 SPACE   &gamemode
+                                             &lt 6 DEL          &lt 4 ENTER   &mo 2                                          &mo 3  &lt 4 SPACE   &gamemode
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -212,7 +212,7 @@
 &kp TAB         &kp Q  &kp W  &kp E  &kp R      &kp T                     &kp UP               &kp Y         &kp U        &kp I      &kp O    &kp P          &kp BSPC
 &kp LEFT_SHIFT  &kp A  &kp S  &kp D  &kp F      &kp G           &kp LEFT  &kp DEL   &kp RIGHT  &kp H         &kp J        &kp K      &kp L    &kp SEMICOLON  &kp SQT
 &kp LCTRL       &kp Z  &kp X  &kp C  &kp V      &kp B  &to 0              &kp DOWN             &kp N         &kp M        &kp COMMA  &kp DOT  &kp FSLH       &kp ESC
-                              &mo 6  &kp SPACE  &mo 7                                          &kp LEFT_ALT  &lt 4 ENTER  &trans
+                              &mo 7  &kp SPACE  &mo 7                                          &kp LEFT_ALT  &lt 4 ENTER  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -268,10 +268,10 @@
 
         layer_6 {
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                  &none         &none  &none  &none  &none  &none  &none
-&none      &none         &none         &none         &none         &none            &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none      &none         &none         &none         &none         &none   &none           &none         &none  &none  &none  &none  &none  &none
-                                       &none         &none         &none                                 &none  &none  &none
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                  &none         &kp NUMBER_6  &kp N7  &kp N8  &kp N9  &kp N0  &none
+&none      &none         &none         &none         &none         &none            &none  &none  &none  &none         &none   &none   &none   &none   &none
+&none      &none         &none         &none         &none         &none   &none           &none         &none         &none   &none   &none   &none   &none
+                                       &none         &none         &none                                 &none         &none   &none
             >;
 
             label = "cleaning number";
@@ -279,10 +279,10 @@
 
         layer_7 {
             bindings = <
-&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &none         &none  &none  &none  &none  &none  &none
-&none      &none   &none   &none   &none   &none            &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none      &none   &none   &none   &none   &none   &none           &none         &none  &none  &none  &none  &none  &none
-                           &none   &none   &none                                 &none  &none  &none
+&kp GRAVE  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &none         &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&none      &none   &none   &none   &none   &none            &none  &none  &none  &none   &none   &none   &none   &none    &kp F12
+&none      &none   &none   &none   &none   &none   &none           &none         &none   &none   &none   &none   &none    &none
+                           &none   &none   &none                                 &none   &none   &none
             >;
 
             label = "clean FN";
