@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: cleaning number}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: pad}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - NUMBER
   - SYMBOL
@@ -288,7 +288,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '0', s: )}
