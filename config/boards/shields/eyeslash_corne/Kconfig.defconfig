@@ -49,10 +49,10 @@ endif
 if ZMK_BACKLIGHT
 
 config PWM
-    default y
+    default n
 
 config LED_PWM
-    default y
+    default n
 
 endif # ZMK_BACKLIGHT
 
