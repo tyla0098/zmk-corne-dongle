@@ -48,7 +48,7 @@ layers:
   - NUMBER
   - SYMBOL
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: game mode, h: toggle}
+  - '&gamemode'
   game mode:
   - $$mdi:keyboard-tab$$
   - Q
