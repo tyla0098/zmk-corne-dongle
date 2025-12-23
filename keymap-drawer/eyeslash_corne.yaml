@@ -95,7 +95,7 @@ layers:
   - cleaning number
   - $$mdi:keyboard-space$$
   - clean FN
-  - SYMBOL
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - {t: '$$mdi:transfer$$', type: trans}
   NUMBER:
